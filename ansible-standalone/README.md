@@ -15,6 +15,7 @@ Getting started
 
 	$ docker build -t ansible-standalone .
 	$ docker run -it ansible-standalone
+	# service ssh start
 	# ansible-playbook -i /ansible/inventory.ini /ansible/playbook.yaml
 	# dpkg -l hello
 	# cat /tmp/helloworld
