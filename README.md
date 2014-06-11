@@ -27,3 +27,8 @@ virtualization
 
 * docker
 
+Deployment
+-------------
+
+* fabric
+
