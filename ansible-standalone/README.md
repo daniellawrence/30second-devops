@@ -30,6 +30,11 @@ This is the file that ansible is going to use to alter your system.
 Its a very simple example of installing a package called *hello* and writing a
 file into */tmp/helloworld*.
 
+*inventory.ini*
+
+This is the list of systems that the playbook can be applied too.
+Howerver, It is more than a list of hosts as it can be used to configure information about
+how we connect to the hosts. In this example we are using a local connection not an SSH connection.
 
 Why does it take longer than 30 seconds to build the docker container
 ---------------------------------------------------------------------
