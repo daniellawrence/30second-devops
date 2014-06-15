@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Install hello package
+    apt: pkg=hello state=latest
+  - name: Create /tmp/helloworld
+    shell: echo "helloworld" > /tmp/helloworld
+ 

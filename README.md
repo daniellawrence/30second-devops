@@ -16,6 +16,7 @@ Configuration Management
 
 * puppet (standalone)
 * chef (solo)
+* ansible (standalone)
 
 Server Testing
 -----------------
@@ -23,7 +24,7 @@ Server Testing
 * serverspec
 
 virtualization
------------------------------
+------------------
 
 * docker
 
@@ -31,4 +32,3 @@ Deployment
 -------------
 
 * fabric
-
