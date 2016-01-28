@@ -2,6 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Daniel Lawrence <dannyla@linux.com>
 
+RUN apt-get update
 RUN apt-get install -y wget
 RUN wget https://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/13.04/x86_64/chef_11.12.4-1_amd64.deb
 RUN dpkg -i chef_11.12.4-1_amd64.deb
