@@ -1,5 +1,5 @@
-30 seconds intro to standalone puppet
-==============================================
+30 seconds intro to chef-solo
+=============================
 
 Quick start in learning chef-solo within a docker container.
 
@@ -17,7 +17,7 @@ Getting started
     $ docker run -it chef-solo bash
     # chef-solo
 	# dpkg -l hello
-	# cat /tmp/helloworld
+	# cat /tmp/helloworld.txt
 
 
  Important files
@@ -27,7 +27,7 @@ Getting started
 
 This is the file that chef-solo is going to use to alter your system.
 Its a very simple example of installing a package called *hello* and writing a
-file into */tmp/helloworld*.
+file into */tmp/helloworld.txt*.
 
 
 Why does it take longer than 30 seconds to build the docker container

@@ -1,7 +1,7 @@
 30second-devops
 ===============
 
-Quick intro into the some devops toolsets.
+Quick intro into some of the devops toolsets.
 
 
 The idea
