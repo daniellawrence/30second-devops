@@ -1,8 +1,8 @@
-FROM ubuntu:14.04
+FROM debian:latest
 
-RUn apt-get update
-RUN apt-get install -y python-pip python-dev openssh-server
-RUN pip install ansible
+RUn apt update
+RUN apt install -y openssh-server
+RUN apt install -y ansible
 
 RUN ssh-keygen -t rsa -N "" -f /root/.ssh/id_rsa
 RUN cp /root/.ssh/id_rsa.pub /root/.ssh/authorized_keys

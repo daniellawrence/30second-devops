@@ -44,4 +44,22 @@ ummm, the 30seconds counter is started after the docker container is built!
 Did it work?
 ---------------
 
-	
+```
+$ ansible-playbook -i /ansible/inventory.ini /ansible/playbook.yaml
+
+PLAY [localhost] ************************************************************** 
+
+GATHERING FACTS *************************************************************** 
+ok: [localhost]
+
+TASK: [Install hello package] ************************************************* 
+changed: [localhost]
+
+TASK: [Create /tmp/helloworld] ************************************************ 
+changed: [localhost]
+
+PLAY RECAP ******************************************************************** 
+localhost                  : ok=3    changed=2    unreachable=0    failed=0   
+
+root@4d3c44acb0ad:/# 
+```
