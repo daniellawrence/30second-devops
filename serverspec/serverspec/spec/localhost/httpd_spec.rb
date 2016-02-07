@@ -15,5 +15,5 @@ end
 
 describe file('/etc/nginx/sites-enabled/default') do
   it { should be_file }
-  it { should contain "server_name localhost" }
+  it { should contain "80" }
 end

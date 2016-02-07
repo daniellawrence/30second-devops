@@ -1,7 +1,5 @@
-FROM ubuntu:14.04
+FROM debian:latest
 
-RUN apt-get update
-RUN apt-get install -y ruby ruby-dev
-RUN gem install --verbose serverspec rake
+RUN apt update
+RUN apt install -y ruby-serverspec net-tools
 ADD serverspec /serverspec
-ADD fix-it.sh /usr/bin/fix-it.sh
